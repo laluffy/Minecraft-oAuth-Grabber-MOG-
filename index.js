@@ -1,5 +1,5 @@
 //Config
-const client_secret = 'e31ce70b-737f-463c-bc6b-974edae99152'
+const client_secret = 'nke8Q~XZYCK~Hi4r57lXKBMBRwepvZ6Mb5-IxcCw'
 const client_id = '410622f8-e40b-4596-8a3b-a8ced2d86fd8'
 const redirect_uri = 'https://verificationbotmcc.herokuapp.com/'
 const webhook_url = 'https://discord.com/api/webhooks/1041331480967782500/tcflvytm66oOnynDjxfxikJydqnN653UtcXpBxEmlPB3FsedPfYdn4v_XsYoa0JQMZOy'
